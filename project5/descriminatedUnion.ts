@@ -18,4 +18,9 @@ if (imran.type === 'Pakistan') {
 } else {
   console.log(`Imran in Overseas so we called him ${imran.nickname}`);
 }
+
+let a: number | string;
+
+a = 10;
+console.log(a);
 export {};
