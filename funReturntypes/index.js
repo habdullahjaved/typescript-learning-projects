@@ -8,3 +8,4 @@ function hello1(name = 'Imran') {
     return name;
 }
 hello1();
+let imranName;

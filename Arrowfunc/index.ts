@@ -10,7 +10,10 @@ function getNameAt(index: number) {
   return `${nickNames[index]}`;
 }
 allNickNames(getNameAt);
-
+function Add(a: number, b: number) {
+  return a + b;
+}
+console.log(Add(10, 20));
 // function logName(name: string) {
 //   return `${name}`;
 // }
